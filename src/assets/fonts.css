@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: "Neue Montreal";
     src: url('./fonts/ppneuemontreal-bold-webfont.woff2') format('woff2'),
@@ -27,7 +28,7 @@
     src: url('./fonts/ppneuemontreal-thin-webfont.woff2') format('woff2'),
          url('./fonts/ppneuemontreal-thin-webfont.woff') format('woff');
     font-weight: 200;
-    font-style: normal;
+    font-style: thin;
   }
   
   @font-face {

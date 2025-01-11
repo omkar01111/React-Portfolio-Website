@@ -11,6 +11,8 @@ export default {
         heading: '#F2F2F2',
         info: '#f2f2f2cc',
         sub_title: '#f2f2f299',
+        transparent: '#f2f2f20d',
+        border:'#f2f2f21a'
       },
       backgroundImage: {
         // Example gradient background
@@ -18,9 +20,14 @@ export default {
       },
       fontFamily: {
         neuemontreal: [
+          
           '"Neue Montreal"',
           'sans-serif', // Fallback
-        ],
+        ],Roboto:['"Roboto Condensed"',]
+      },
+
+      boxShadow: {
+        'custom': ' 0 10px 25px #00000026',
       },
     },
   },

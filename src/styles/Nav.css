@@ -1,0 +1,19 @@
+
+.Nav_mid_container:hover {
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(242, 242, 242, 0.1);
+    /* transition: box-shadow  cubic-bezier(.23, 1, .32, 1), border .6s cubic-bezier(.165, .84, .44, 1); */
+    background-image: linear-gradient(270deg, #0000, #f2f2f20d);    
+}
+.button_hover_left:hover {
+    background-image: linear-gradient(270deg, #0000, #f2f2f20d);
+    
+}
+.button_hover_right:hover{
+    background-image: linear-gradient(270deg, #f2f2f20d, #0000);
+  
+}
+.Social_button:hover{
+    background-color:#f2f2f20d ;
+}
