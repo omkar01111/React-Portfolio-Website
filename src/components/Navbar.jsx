@@ -1,14 +1,14 @@
-import { useState } from "react";
 import "../styles/Nav.css";
-import { Link, useNavigate } from "react-router-dom";
-import { ArrowUpRight, Bold, MoveUpRight } from "lucide-react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [current, setCurrent] = useState("");
 
   return (
-    <div className="justify-center items-center flex flex-row w-full min-h-[5rem] ">
+    <div className="nav_container justify-center items-center flex flex-row w-full min-h-[5rem] ">
       {/* Left button */}
       <div className="left w-1/5 justify-center items-center align-middle flex flex-col ">
         <div className="ml-[-30%]">
@@ -20,7 +20,7 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-{/* mid nav bar */}
+      {/* mid nav bar */}
       <div className="mid w-3/5 justify-center flex flex-col items-center ">
         <div className="w-[180px] ">
           <div className="mx-[22%] w-[125px] relative z-10 h-[0.1px]">
@@ -53,7 +53,11 @@ const Navbar = () => {
                 <motion.div
                   initial={{ x: 10 }}
                   animate={{ x: 85 }}
-                  transition={{ duration: 0.5, ease: "easeInOut", type:"spring"  }}
+                  transition={{
+                    duration: 0.5,
+                    ease: "easeInOut",
+                    type: "spring",
+                  }}
                   className="  w-[80px] h-[36px] rounded-3xl  relative  z-10 bg-[#3f3f3f]"
                 ></motion.div>
               )}
